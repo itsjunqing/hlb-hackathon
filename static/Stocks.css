@@ -1,5 +1,20 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
 
+div#content {
+    display: none;
+    }
+
+div#loading {
+    top: 200px;
+    margin: auto;
+    position: absolute;
+    z-index: 1000;
+    width: 160px;
+    height: 24px;
+    background: url(loadingimage.gif) no-repeat;
+    cursor: wait;
+    }
+
 table#table1 {
     padding-top:50px;
     width:70%;

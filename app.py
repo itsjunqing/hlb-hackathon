@@ -1,4 +1,5 @@
-from flask import Flask, render_template
+import time
+from flask import Flask, render_template, request
 
 class User:
 	balance = 10000
@@ -29,6 +30,11 @@ def holdings():
 def purchase():
 	# directing user to page 4 (portfolio / list of stocks purchased / history)
 	return render_template("Purchase.html", title = "Purchase Screen")
+
+@app.route('/purchase-check')
+def purchasecheck():
+	# directing user to page 4 (portfolio / list of stocks purchased / history)
+	return render_template("Purchase-check.html", title = "Purchase Screen")
 
 if __name__ == '__main__':
 	app.run(debug=True)
