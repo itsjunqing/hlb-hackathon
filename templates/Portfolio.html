@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Portfolio</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='portfolio.css') }}">
-  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <title>Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='portfolio.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
 <body class="bg1">
 <hr style="height:150px; border:none; color:rgba(255, 255, 255, 0); background-color:rgba(255, 255, 255, 0); width:100%; text-align:center; margin: 0 auto;">
 <div class="container-fluid text-center">
     <h1>PORTFOLIO</h1>
     <table class="rwd-table" id="table1">
-      <tr>
-        <th>Stock</th>
-        <th>Current Price</th>
-        <th>Target Price</th>
-        <th>Stop Loss Price</th>
-        <th>Days Left</th>
-      </tr>
-      <tr>
-        <td>Apple</td>
-        <td>{{ closed_price }}</td>
-        <td>{{ target_price }}</td>
-        <td>{{ stop_loss_price }}</td>
-        <td>10</td>
-      </tr>
-</table>
+        <tr>
+            <th>Stock</th>
+            <th>Current Price</th>
+            <th>Target Price</th>
+            <th>Stop Loss Price</th>
+            <th>Total Contributors</th>
+            <th>Days Left</th>
+        </tr>
+        <tr>
+            <td>Apple</td>
+            <td>{{ apple_purchase }}</td>
+            <td>{{ apple_target }}</td>
+            <td>{{ apple_loss }}</td>
+            <td>20</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Facebook</td>
+            <td>{{ fb_purchase }}</td>
+            <td>{{ fb_target }}</td>
+            <td>{{ fb_loss }}</td>
+            <td>20</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>Dropbox</td>
+            <td>{{ dbx_purchase }}</td>
+            <td>{{ dbx_target }}</td>
+            <td>{{ dbx_loss }}</td>
+            <td>15</td>
+            <td>5</td>
+        </tr>
+    </table>
 </div>
 </body>
 </html>
