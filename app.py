@@ -25,5 +25,10 @@ def holdings():
 	# directing user to page 3 (portfolio / list of stocks purchased / history)
 	return render_template("Portfolio.html", title = "Stocks Portfolio / Holdings")
 
+@app.route('/purchase')
+def purchase():
+	# directing user to page 3 (portfolio / list of stocks purchased / history)
+	return render_template("Purchase.html", title = "Purchase Screen")
+
 if __name__ == '__main__':
 	app.run(debug=True)

@@ -1,10 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+  <title>Home Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='stocks.css') }}">
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 </head>
-<body>
-<h1>Hi I Am Stocks</h1>
+<body class="bg1">
+<hr style="height:150px; border:none; color:rgba(255, 255, 255, 0); background-color:rgba(255, 255, 255, 0); width:100%; text-align:center; margin: 0 auto;">
+<div class="container-fluid text-center">
+    <h1>List of Stocks</h1>
+    <table class="rwd-table" id="table1">
+      <tr>
+        <th>Stocks</th>
+        <th>Target</th>
+        <th>Number Of Contributors</th>
+        <th>Balance Left</th>
+      </tr>
+      <tr>
+        <td data-th="Stock">Apple</td>
+        <td data-th="Target">$1000</td>
+        <td data-th="NumberOfContributors">14</td>
+        <td data-th="Balance Left">$20</td>
+        <td><a href="/portfolio" class="btn btn-info" role="button">Join</a></td>
+
+      </tr>
+      <tr>
+        <td data-th="Stock">Facebook</td>
+        <td data-th="Target">$500</td>
+        <td data-th="NumberOfContributors">5</td>
+        <td data-th="Balance Left">$40</td>
+        <td><a href="/portfolio" class="btn btn-info" role="button">Join</a></td>
+      </tr>
+      <tr>
+        <td data-th="Stock">Alibaba</td>
+        <td data-th="Target">$800</td>
+        <td data-th="NumberOfContributors">23</td>
+        <td data-th="Balance Left">$60</td>
+        <td><a href="/portfolio" class="btn btn-info" role="button">Join</a></td>
+
+      </tr>
+    </table>
+</div>
 </body>
 </html>
