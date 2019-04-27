@@ -27,7 +27,7 @@ def holdings():
 
 @app.route('/purchase')
 def purchase():
-	# directing user to page 3 (portfolio / list of stocks purchased / history)
+	# directing user to page 4 (portfolio / list of stocks purchased / history)
 	return render_template("Purchase.html", title = "Purchase Screen")
 
 if __name__ == '__main__':
