@@ -4,6 +4,7 @@
 }
 .col-left {
     display: inline-block;
+    padding-top:100px;
 }
 .col-right {
     display: inline-block;
