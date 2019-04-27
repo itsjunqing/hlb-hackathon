@@ -30,6 +30,13 @@
     padding: 50px;
     margin: 20px;
 }
+.btm-btm-left{
+    display: inline-block;
+}
+.btm-btm-right{
+    display: inline-block;
+}
+
 
 label {
     padding-top:20px;
