@@ -1,0 +1,19 @@
+.bg1 {
+    background-color: #1abc9c; /*Green*/
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+.top {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  height:100px;
+  width:500px;
+  color: white;
+  border:1px
+  padding-top:50px;
+  width:70%;
+  margin-left:15%;
+  margin-right:15%;
+}
