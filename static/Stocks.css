@@ -24,6 +24,7 @@ table#table1 {
 
 h1 {
     color:white;
+    font-size:60px;
 }
 
 .bg1 {
@@ -119,4 +120,12 @@ div.h1 {
 }
 .rwd-table th, .rwd-table td:before {
   color: #dd5;
+}
+
+th {
+  font-size:25px;
+}
+
+td {
+  font-size:20px;
 }

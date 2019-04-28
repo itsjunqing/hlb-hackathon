@@ -111,3 +111,6 @@ body {
 .inp input:focus + span + .border {
   transform: scaleX(1);
 }
+h1 {
+  font-size:60px;
+}

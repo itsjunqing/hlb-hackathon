@@ -9,6 +9,15 @@ table#table1 {
 
 h1 {
     color:white;
+    font-size:60px;
+}
+
+th {
+  font-size:25px;
+}
+
+td {
+  font-size:20px;
 }
 
 .bg1 {
@@ -55,7 +64,7 @@ h1 {
   }
 }
 .rwd-table th, .rwd-table td {
-  text-align: left;
+  text-align: center;
 }
 @media (min-width: 480px) {
   .rwd-table th, .rwd-table td {

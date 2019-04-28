@@ -10,3 +10,15 @@
 .col-right {
     display: inline-block;
 }
+h1 {
+    font-size:60px;
+}
+h2 {
+    font-size:49px;
+}
+h3 {
+    font-size:40px;
+}
+.btn-lg {
+    font-size:30px;
+}
