@@ -47,10 +47,9 @@ def holdings():
 	dbx_target = round(dropbox * 2, 2)
 	dbx_loss = round(dropbox * 0.5, 2)
 
-
+	# apple_purchase = apple_purchase, apple_target = apple_target, apple_loss = apple_loss,
+	# fb_purchase = fb_purchase, fb_target = fb_target, fb_loss = fb_loss,
 	return render_template("Portfolio.html", title = "Stocks Portfolio / Holdings",
-						   apple_purchase=apple_purchase, apple_target=apple_target, apple_loss=apple_loss,
-						   fb_purchase=fb_purchase, fb_target=fb_target, fb_loss=fb_loss,
 						   dbx_purchase=dbx_purchase, dbx_target=dbx_target, dbx_loss=dbx_loss)
 
 @app.route('/purchase')
