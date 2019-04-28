@@ -1,20 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Montserrat:300,400,700";
 
-div#content {
-    display: none;
-    }
-
-div#loading {
-    top: 200px;
-    margin: auto;
-    position: absolute;
-    z-index: 1000;
-    width: 160px;
-    height: 24px;
-    background: url(loadingimage.gif) no-repeat;
-    cursor: wait;
-    }
-
 table#table1 {
     padding-top:50px;
     width:70%;
@@ -25,6 +10,14 @@ table#table1 {
 h1 {
     color:white;
     font-size:60px;
+}
+
+th {
+  font-size:22px;
+}
+
+td {
+  font-size:20px;
 }
 
 .bg1 {
@@ -71,7 +64,7 @@ h1 {
   }
 }
 .rwd-table th, .rwd-table td {
-  text-align: left;
+  text-align: center;
 }
 @media (min-width: 480px) {
   .rwd-table th, .rwd-table td {
@@ -120,12 +113,4 @@ div.h1 {
 }
 .rwd-table th, .rwd-table td:before {
   color: #dd5;
-}
-
-th {
-  font-size:25px;
-}
-
-td {
-  font-size:20px;
 }
