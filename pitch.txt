@@ -7,9 +7,19 @@ Co-feature 3: risk is transparent
 Co-feature 4 
 
 
-The problem occurred on me myself as a student trying to generate passive income through buying stocks, but high-performing stocks were too expensive for me as a student for example Apple stocks cost up to RM1000 per unit (due to Malaysian's currency exchange rate). On the other hand, buying stocks requires analysis and study because it is considered as a risky field and as student focuses on academics study, it is not encourageable for them to venture in stocks field because it consumes time. 
+The problem occurred on me myself as a student trying to generate passive income through buying stocks, spc superset stocks such as apple eat. but high-performing stocks were too expensive for me as a student for example Apple stocks cost up to RM1000 per unit (due to Malaysian's currency exchange rate), I don't have that kind of money. This is worsened by the complicated nature of the stock market. This leads to disenchantment, and alienated from investment as a whole.
 
-So, our approach is that instead of buying stocks for RM1000 for each unit, we say that why not we make it such that each student could invest in high-performing stocks even with just RM1. We do this through crowdsourcing, assuming that there are 100 students and each student invest RM10 in Apple stocks, resulting in RM1000. This crowdfunded source is used to purchase Apple stock. Before each student "join the community" or "purchase that stock", that student has to accept the terms which the buying and selling price is, meaning, when the price reaches certain percentage above or below the price which the stock is bought, it will be sold immediately. We acknowledge that there is a condition where the stock price drops rapidly when the stock market opens, so in such case, user has to bear the risk, as stock markets are extremely volatile. Students like us do not have to spend a lot of time studying and analysis the market conditions before the stock is purchased, instead we have a system that shows the highest number of contributors (most preferred stock) that reduce the "effort" of their thinking when it comes to purchasing stocks. 
+This is when the bank and our app comes into the picture. Our app combines crowd funding and message boards like reddit to turn the dreary of buying stocks to a streamlined and social experience 
+
+
+
 
 # showing the list of stocks
 All a student needs to know is 3 things before he purchase the stock, the value invested, the loss percentage and profit percentage. This gives an idea to the student on how much he expects to earn or lose out from that transaction. In other words, the risk for our app is incredibly transparent to the extend where the user knows everything that he does and this platform does everything from purchasing to distributing the value earned back to the student. 
+
+
+
+*******
+On the other hand, buying stocks requires analysis and study because it is considered as a risky field and as student focuses on academics study, it is not encourageable for them to venture in stocks field because it consumes time. 
+
+So, our approach is that instead of buying stocks for RM1000 for each unit, we say that why not we make it such that each student could invest in high-performing stocks even with just RM1. We do this through crowdsourcing, assuming that there are 100 students and each student invest RM10 in Apple stocks, resulting in RM1000. This crowdfunded source is used to purchase Apple stock. Before each student "join the community" or "purchase that stock", that student has to accept the terms which the buying and selling price is, mean ing, when the price reaches certain percentage above or below the price which the stock is bought, it will be sold immediately. We acknowledge that there is a condition where the stock price drops rapidly when the stock market opens, so in such case, user has to bear the risk, as stock markets are extremely volatile. Students like us do not have to spend a lot of time studying and analysis the market conditions before the stock is purchased, instead we have a system that shows the highest number of contributors (most preferred stock) that reduce the "effort" of their thinking when it comes to purchasing stocks. 
